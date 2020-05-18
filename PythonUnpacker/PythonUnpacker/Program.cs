@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.IO;
+using System.Diagnostics;
 
 namespace PythonUnpacker
 {
@@ -16,8 +17,14 @@ namespace PythonUnpacker
             Console.ForegroundColor = ConsoleColor.Blue;
             animation();
             Console.WriteLine("Python Beautifier /o/");
-              string clear = Unpacker.Unpack(args[0]);
-              File.WriteAllText($@"{Environment.CurrentDirectory}\Cleared.py", clear);
+            string path = args[0];
+            string copy = File.ReadAllText(path);
+            copy = copy.Replace("exec", "print");
+            Process.Start("cmd.exe", $"/C {path} > extracted.py");
+            string newpath = $@"{Environment.CurrentDirectory}\extracted.py";
+            Thread.Sleep(5000);
+            string clear = Unpacker.Unpack(newpath);
+            File.WriteAllText($@"{Environment.CurrentDirectory}\Cleared.py", clear);
 
 
 
