@@ -1,0 +1,6 @@
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\bin\Debug\PythonUnpacker.exe.config
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\bin\Debug\PythonUnpacker.exe
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\bin\Debug\PythonUnpacker.pdb
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\obj\Debug\PythonUnpacker.csprojAssemblyReference.cache
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\obj\Debug\PythonUnpacker.exe
+C:\Users\Noah\source\repos\PythonUnpacker\PythonUnpacker\obj\Debug\PythonUnpacker.pdb
